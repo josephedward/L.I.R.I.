@@ -1,0 +1,19 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "language interpretation and recognition interface",
+  "main": "liri.js",
+  "scripts": {
+    "test": "node liri.js concert-this maroon5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephvesley/L.I.R.I..git"
+  },
+  "author": "joe vesley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josephvesley/L.I.R.I./issues"
+  },
+  "homepage": "https://github.com/josephvesley/L.I.R.I.#readme"
+}
