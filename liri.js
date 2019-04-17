@@ -1,15 +1,11 @@
-// Read and set environment variables
+// environment variables
 require("dotenv").config();
-
-//VARS
+//variables
 var request = require("request");
 var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
-
 var fs = require("fs");
-
-
 // var time = moment().format('HH:mm:ss');
 // var axios = require("axios");
 
@@ -20,7 +16,7 @@ var inputParameter = process.argv.slice(3).join(' ');
 //Execute function
 UserInputs(userOption, inputParameter);
 
-//FUNCTIONS
+//Switch Statement
 function UserInputs(userOption, inputParameter) {
   switch (userOption) {
     case "concert-this":
@@ -54,19 +50,22 @@ function showConcertInfo(inputParameter) {
   request(queryUrl, function(error, response, body) {
     // If the request is successful
     if (!error && response.statusCode === 200) {
-      var concerts = JSON.parse(body);
-      logs.logConcerts(concerts);
-      for (var i = 0; i < concerts.length; i++) {
-        console.log("**********EVENT INFO*********");
-        console.log(i);
-        console.log("Name of the Venue: " + concerts[i].venue.name);
-        console.log("Venue Location: " + concerts[i].venue.city);
-        console.log("Date of the Event: " + concerts[i].datetime);
-        console.log("*****************************");
+      try {
+        var concerts = JSON.parse(body);
+        logs.logConcerts(concerts);
+        for (var i = 0; i < concerts.length; i++) {
+          console.log("**********EVENT INFO*********");
+          console.log(i);
+          console.log("Name of the Venue: " + concerts[i].venue.name);
+          console.log("Venue Location: " + concerts[i].venue.city);
+          console.log("Date of the Event: " + concerts[i].datetime);
+          console.log("*****************************");
+        }        
+      } catch (error) {
+        console.log("Bad Request. Please try again.");
       }
-    } else {
-      console.log("Error occurred.");
-    }
+
+    } 
   });
 }
 
@@ -75,16 +74,14 @@ function showSongInfo(inputParameter) {
   if (inputParameter === undefined||inputParameter==="") {
     inputParameter = "Separate Ways";
   }
+  //node-spotify-api call 
   spotify.search(
     {
       type: "track",
       query: inputParameter
     },
-    function(err, data) {
-      if (err) {
-        console.log("Error occurred: " + err);
-        return;
-      }
+    function(err,data) {
+      //cant get the err to log no matter WTF I DO!!!! 
       var songs = data.tracks.items;
       logs.logSongs(songs);
       for (var i = 0; i < songs.length; i++) {
@@ -102,73 +99,62 @@ function showSongInfo(inputParameter) {
 
 //Funtion for Movie Info: OMDB
 function showMovieInfo(inputParameter) {
-  if (inputParameter === undefined||inputParameter==="") {
-    inputParameter = "Fight Club";
-  }
-  var queryUrl =
-    "http://www.omdbapi.com/?t=" +
-    inputParameter +
-    "&y=&plot=short&apikey=b3c0b435";
-  request(queryUrl, function(error, response, body) {
-    // If the request is successful
-    if (!error && response.statusCode === 200) {
-      var movies = JSON.parse(body);
-      logs.logMovie(movies);
-      console.log("**********MOVIE INFO*********");
-      console.log("Title: " + movies.Title);
-      console.log("Release Year: " + movies.Year);
-      console.log("IMDB Rating: " + movies.imdbRating);
-      console.log("Rotten Tomatoes Rating: " + getRottenTomatoesRatingValue(movies));
-      console.log("Country of Production: " + movies.Country);
-      console.log("Language: " + movies.Language);
-      console.log("Plot: " + movies.Plot);
-      console.log("Actors: " + movies.Actors);
-      console.log("*****************************");
-    } else {
-      console.log("Error occurred.");
+ 
+    if (inputParameter === undefined||inputParameter==="") {
+      inputParameter = "Fight Club";
     }
-  });
+    var queryUrl =
+      "http://www.omdbapi.com/?t=" +
+      inputParameter +
+      "&y=&plot=short&apikey=b3c0b435";
+    request(queryUrl, function(error, response, body) {
+      
+      // If the request is successful
+      if (!error && response.statusCode === 200){
+            try{
+        var movie = JSON.parse(body);
+        logs.logMovie(movie);
+        console.log("**********MOVIE INFO*********");
+        console.log("Title: " + movie.Title);
+        console.log("Release Year: " + movie.Year);
+        console.log("IMDB Rating: " + movie.imdbRating);
+        console.log("Rotten Tomatoes Rating: " + movie.Ratings[1].Value);
+        console.log("Country of Production: " + movie.Country);
+        console.log("Language: " + movie.Language);
+        console.log("Plot: " + movie.Plot);
+        console.log("Actors: " + movie.Actors);
+        console.log("*****************************");
+      }catch (error) {
+          console.log("Bad Request. Please try again.");
+        }
+       
+      } 
+    });
 }
 
 
-
-
-//find??
-// function getRottenTomatoesRatingValue(data) {
-// return data.Ratings[1].Value
-// }
-
-
-// function to get proper Rotten Tomatoes Rating
-function getRottenTomatoesRatingObject(data) {
-  return data.Ratings.find(function(item) {
-    return item.Source === "Rotten Tomatoes";
-  });
-}
-
-function getRottenTomatoesRatingValue(data) {
-  return getRottenTomatoesRatingObject(data).Value;
-}
 
 //function for reading out of random.txt file
 function showSomeInfo() {
   fs.readFile("random.txt", "utf8", function(err, data) {
     if (err) {
       return console.log(err);
-    }
+    }else
+  {
     var dataArr = data.split(",");
     UserInputs(dataArr[0], dataArr[1]);
+  }
   });
 }
 
 
 
-module.exports={getRottenTomatoesRatingValue,getRottenTomatoesRatingObject};
+
 var logs=require("./log.js");
 
 
 //****************************************************************************************************************************************/
-
+// module.exports={getRottenTomatoesRatingValue,getRottenTomatoesRatingObject};
 // function showConcertInfo0(inputParameter){
 
 // // Grab the axios package...

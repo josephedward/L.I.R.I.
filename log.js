@@ -9,10 +9,10 @@ var liri=require("./liri.js");
 
 function logWrap()
 {
-fs.appendFileSync("log.txt","^^^^^^^^^^^^^^^^^^^^"+"\n");    
+fs.appendFileSync("log.txt","^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+"\n");    
 fs.appendFileSync("log.txt","Log Date:"+"\n");
 fs.appendFileSync("log.txt", new Date(moment())+"\n");
-fs.appendFileSync("log.txt","^^^^^^^^^^^^^^^^^^^^"+"\n");
+fs.appendFileSync("log.txt","^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+"\n");
 }
 
 
@@ -48,7 +48,8 @@ function logMovie(movies){
           fs.appendFileSync("log.txt", "Title: " + movies.Title + "\n");
       fs.appendFileSync("log.txt", "Release Year: " + movies.Year + "\n");
       fs.appendFileSync("log.txt", "IMDB Rating: " + movies.imdbRating + "\n");
-      fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + liri.getRottenTomatoesRatingValue(movies) + "\n");
+      fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + movies.Ratings[1].Value+ "\n");
+    //   liri.getRottenTomatoesRatingValue(movies) + "\n");
       fs.appendFileSync("log.txt", "Country of Production: " + movies.Country + "\n");
       fs.appendFileSync("log.txt", "Language: " + movies.Language + "\n");
       fs.appendFileSync("log.txt", "Plot: " + movies.Plot + "\n");
