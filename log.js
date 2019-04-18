@@ -9,10 +9,10 @@ var liri=require("./liri.js");
 
 function logWrap()
 {
-fs.appendFileSync("log.txt","^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+"\n");    
+fs.appendFileSync("log.txt","^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+"\n");    
 fs.appendFileSync("log.txt","Log Date:"+"\n");
 fs.appendFileSync("log.txt", new Date(moment())+"\n");
-fs.appendFileSync("log.txt","^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+"\n");
+fs.appendFileSync("log.txt","^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+"\n");
 }
 
 

@@ -3121,3 +3121,338 @@ Tue Apr 16 2019 23:57:18 GMT-0400 (EDT)
 Log Date:
 Tue Apr 16 2019 23:58:05 GMT-0400 (EDT)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Log Date:
+Thu Apr 18 2019 17:38:02 GMT-0400 (EDT)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**********EVENT INFO*********
+0
+Name of the Venue: Beacon Theatre
+Venue Location: New York
+Date of the Event: 2019-04-25T20:00:00
+*****************************
+**********EVENT INFO*********
+1
+Name of the Venue: The SSE Arena, Wembley
+Venue Location: London
+Date of the Event: 2019-05-10T18:00:00
+*****************************
+**********EVENT INFO*********
+2
+Name of the Venue: Manchester Arena
+Venue Location: Manchester
+Date of the Event: 2019-05-11T19:30:00
+*****************************
+**********EVENT INFO*********
+3
+Name of the Venue: SSE Hydro
+Venue Location: Glasgow
+Date of the Event: 2019-05-12T18:30:00
+*****************************
+**********EVENT INFO*********
+4
+Name of the Venue: 3Arena
+Venue Location: Dublin
+Date of the Event: 2019-05-14T18:30:00
+*****************************
+**********EVENT INFO*********
+5
+Name of the Venue: Accorhotels Arena
+Venue Location: Paris
+Date of the Event: 2019-05-17T19:30:00
+*****************************
+**********EVENT INFO*********
+6
+Name of the Venue: Parkbühne Wuhlheide
+Venue Location: Berlin
+Date of the Event: 2019-05-18T16:00:00
+*****************************
+**********EVENT INFO*********
+7
+Name of the Venue: Stella Maris
+Venue Location: Umag
+Date of the Event: 2019-05-23T19:30:00
+*****************************
+**********EVENT INFO*********
+8
+Name of the Venue: Michigan Lottery Amphitheatre at Freedom Hill
+Venue Location: Sterling Heights
+Date of the Event: 2019-05-31T19:30:00
+*****************************
+**********EVENT INFO*********
+9
+Name of the Venue: Aragon Ballroom
+Venue Location: Chicago
+Date of the Event: 2019-06-01T19:30:00
+*****************************
+**********EVENT INFO*********
+10
+Name of the Venue: Agora Theater & Ballroom
+Venue Location: Cleveland
+Date of the Event: 2019-06-02T20:00:00
+*****************************
+**********EVENT INFO*********
+11
+Name of the Venue: CCNB Amphitheatre at Heritage Park
+Venue Location: Simpsonville
+Date of the Event: 2019-06-07T19:00:00
+*****************************
+**********EVENT INFO*********
+12
+Name of the Venue: Red Hat Amphitheater
+Venue Location: Raleigh
+Date of the Event: 2019-06-08T20:00:00
+*****************************
+**********EVENT INFO*********
+13
+Name of the Venue: Ryman Auditorium
+Venue Location: Nashville
+Date of the Event: 2019-06-09T19:30:00
+*****************************
+**********EVENT INFO*********
+14
+Name of the Venue: House Of Blues Boston
+Venue Location: Boston
+Date of the Event: 2019-06-12T19:00:00
+*****************************
+**********EVENT INFO*********
+15
+Name of the Venue: Mohegan Sun Arena
+Venue Location: Uncasville
+Date of the Event: 2019-06-14T20:00:00
+*****************************
+**********EVENT INFO*********
+16
+Name of the Venue: Borgata Event Center
+Venue Location: Atlantic City
+Date of the Event: 2019-06-15T20:00:00
+*****************************
+**********EVENT INFO*********
+17
+Name of the Venue: Ford Amphitheater at Coney Island Boardwalk
+Venue Location: Brooklyn
+Date of the Event: 2019-06-16T20:00:00
+*****************************
+**********EVENT INFO*********
+18
+Name of the Venue: Virginia Credit Union LIVE! at Richmond Raceway
+Venue Location: Richmond
+Date of the Event: 2019-06-18T19:30:00
+*****************************
+**********EVENT INFO*********
+19
+Name of the Venue: CenturyLink Field
+Venue Location: Seattle
+Date of the Event: 2019-06-21T20:00:00
+*****************************
+**********EVENT INFO*********
+20
+Name of the Venue: Shoreline Amphitheatre
+Venue Location: Mountain View
+Date of the Event: 2019-06-22T19:00:00
+*****************************
+**********EVENT INFO*********
+21
+Name of the Venue: LeBreton Flats Park
+Venue Location: Ottawa
+Date of the Event: 2019-07-04T19:00:00
+*****************************
+**********EVENT INFO*********
+22
+Name of the Venue: Lebreton Flats
+Venue Location: Ottawa
+Date of the Event: 2019-07-13T17:00:00
+*****************************
+**********EVENT INFO*********
+23
+Name of the Venue: Wave
+Venue Location: Wichita
+Date of the Event: 2019-07-31T18:00:00
+*****************************
+**********EVENT INFO*********
+24
+Name of the Venue: The Stir Cove at Harrahs
+Venue Location: Council Bluffs
+Date of the Event: 2019-08-01T20:00:00
+*****************************
+**********EVENT INFO*********
+25
+Name of the Venue: Riverside Theatre
+Venue Location: Milwaukee
+Date of the Event: 2019-08-03T19:30:00
+*****************************
+**********EVENT INFO*********
+26
+Name of the Venue: Fistral Beach and Watergate Bay
+Venue Location: Newquay
+Date of the Event: 2019-08-07T19:00:00
+*****************************
+**********EVENT INFO*********
+27
+Name of the Venue: Park Śląski
+Venue Location: Chorzow
+Date of the Event: 2019-08-23T19:00:00
+*****************************
+**********EVENT INFO*********
+28
+Name of the Venue: Park Śląski
+Venue Location: Chorzow
+Date of the Event: 2019-08-24T19:00:00
+*****************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Log Date:
+Thu Apr 18 2019 17:38:41 GMT-0400 (EDT)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**********SONG INFO*********
+0
+song name: Separate Ways (Worlds Apart)
+preview song: https://p.scdn.co/mp3-preview/5afb6b698c4842ad92bd1361399d42d3eb52d625?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Frontiers
+artist(s): Journey
+*****************************
+**********SONG INFO*********
+1
+song name: Separate Ways (Worlds Apart)
+preview song: https://p.scdn.co/mp3-preview/40fc1ddb7311c8b30ca956bb9ff2bd75b3ee5130?cid=8654c053459b48f5af5f8af5c1874bf5
+album: The Essential Journey
+artist(s): Journey
+*****************************
+**********SONG INFO*********
+2
+song name: Separate Ways (Worlds Apart)
+preview song: https://p.scdn.co/mp3-preview/d1e27a85308229956f24368f57c7d347cf515a2f?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Greatest Hits
+artist(s): Journey
+*****************************
+**********SONG INFO*********
+3
+song name: Separate Ways - Live
+preview song: null
+album: Underground
+artist(s): Kip Moore
+*****************************
+**********SONG INFO*********
+4
+song name: Separate Ways
+preview song: https://p.scdn.co/mp3-preview/42752365b5b2365302b1120cb89caf3efb71e16a?cid=8654c053459b48f5af5f8af5c1874bf5
+album: RARE Sound
+artist(s): K CAMP
+*****************************
+**********SONG INFO*********
+5
+song name: Separate Ways (Worlds Apart)
+preview song: null
+album: Punk Goes Classic Rock
+artist(s): A Skylit Drive
+*****************************
+**********SONG INFO*********
+6
+song name: Separate Ways
+preview song: https://p.scdn.co/mp3-preview/c6fa1de785cbc9c9e9ad5a0aeec7a54dcdd1fcfb?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Separate Ways
+artist(s): Unknown Brain
+*****************************
+**********SONG INFO*********
+7
+song name: Separate Ways
+preview song: https://p.scdn.co/mp3-preview/55bfbadec7a336eab7027eed05fb2b291804e75a?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Separate Ways
+artist(s): Kudasaibeats
+*****************************
+**********SONG INFO*********
+8
+song name: Separate Ways
+preview song: https://p.scdn.co/mp3-preview/25ebee3510b1c10e930cceaafe0da86ea8196c1b?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Hell of a Ride
+artist(s): Arson City
+*****************************
+**********SONG INFO*********
+9
+song name: Separate Ways
+preview song: https://p.scdn.co/mp3-preview/6e7d878a8c1da6aa3bdfe0ff47cd4f9f094d8be9?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Sad 2 Say It
+artist(s): Mack Nasty
+*****************************
+**********SONG INFO*********
+10
+song name: Bring You Back
+preview song: https://p.scdn.co/mp3-preview/90f393d32719798f578e49ef21afcfbd4f8cafdb?cid=8654c053459b48f5af5f8af5c1874bf5
+album: The Ways We Separate
+artist(s): Beacon
+*****************************
+**********SONG INFO*********
+11
+song name: Walking Separate Ways
+preview song: https://p.scdn.co/mp3-preview/105a079923490ca6bf1ec2be67a224e91bd40716?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Full Of War
+artist(s): Conditions
+*****************************
+**********SONG INFO*********
+12
+song name: Separate Ways (Worlds Apart) [Re-Recorded]
+preview song: https://p.scdn.co/mp3-preview/79b7859a3365344b995c1f2f847b619199a8f755?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Revelation
+artist(s): Journey
+*****************************
+**********SONG INFO*********
+13
+song name: Separate Ways (Worlds Apart)
+preview song: https://p.scdn.co/mp3-preview/44579835fce6f151da4b0b9bcfca51721caadedd?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Lullaby Renditions of Journey
+artist(s): Rockabye Baby!
+*****************************
+**********SONG INFO*********
+14
+song name: Hardboiled...Afraid (Separate Ways)
+preview song: https://p.scdn.co/mp3-preview/547af6a741939544e4fa89577b02803c4af4886f?cid=8654c053459b48f5af5f8af5c1874bf5
+album: The Legend of Korra: Original Music From Book One
+artist(s): Jeremy Zuckerman
+*****************************
+**********SONG INFO*********
+15
+song name: Separate Ways
+preview song: https://p.scdn.co/mp3-preview/df2c12a6a6019dca2b2d5edcae29b7cce567bdbd?cid=8654c053459b48f5af5f8af5c1874bf5
+album: FATHER
+artist(s): AUGUST 08
+*****************************
+**********SONG INFO*********
+16
+song name: separate ways
+preview song: https://p.scdn.co/mp3-preview/42caeb925943f684f66af9dedf6678690d1bcfb0?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Simple Things
+artist(s): aekasora
+*****************************
+**********SONG INFO*********
+17
+song name: Separate Ways
+preview song: https://p.scdn.co/mp3-preview/2fdad43578c8549716445dd5b35ca8c931adfa15?cid=8654c053459b48f5af5f8af5c1874bf5
+album: U
+artist(s): Tourist
+*****************************
+**********SONG INFO*********
+18
+song name: Separate Ways
+preview song: https://p.scdn.co/mp3-preview/d297866fdeed794a17a32acd8232a9f52baea090?cid=8654c053459b48f5af5f8af5c1874bf5
+album: Elvis (Fool)
+artist(s): Elvis Presley
+*****************************
+**********SONG INFO*********
+19
+song name: Separate Ways
+preview song: https://p.scdn.co/mp3-preview/b318bdb66f7eff5d4e3c5ad3aaf114af79ce81a6?cid=8654c053459b48f5af5f8af5c1874bf5
+album: One Way Ticket
+artist(s): Journey
+*****************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Log Date:
+Thu Apr 18 2019 17:39:25 GMT-0400 (EDT)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Title: Fight Club
+Release Year: 1999
+IMDB Rating: 8.8
+Rotten Tomatoes Rating: 79%
+Country of Production: USA, Germany
+Language: English
+Plot: An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.
+Actors: Edward Norton, Brad Pitt, Meat Loaf, Zach Grenier
+*****************************
